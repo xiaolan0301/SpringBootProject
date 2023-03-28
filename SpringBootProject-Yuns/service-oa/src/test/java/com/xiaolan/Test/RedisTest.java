@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
-import javax.annotation.Resource;
 
 @SpringBootTest
 public class RedisTest {
@@ -28,7 +27,7 @@ public class RedisTest {
 
     @Test
     public void testp(){
-        System.out.println(typeService.findProcessType()+"11111111111111");
+        System.out.println(typeService.findProcessType());
 
     }
 }
